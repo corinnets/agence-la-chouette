@@ -11,12 +11,23 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+
+
 }
+
+/*ajout code css pour accessibilité sur les lien 
+
+body a:focus{
+    outline: 2px solid #8cc63f;
+          background-color: #fdf6e7;
+}
+*/
 
 #page-loading-blocs-notifaction {
     position: fixed;
