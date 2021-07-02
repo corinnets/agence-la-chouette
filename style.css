@@ -688,17 +688,29 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.paragr-title{
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 cite {
     display: block;
     text-align: center;
+    font-size: 16px;
 }
 
+blockquote{
+    margin-bottom: 0;
+}
+
+
 blockquote p {
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
+    
 }
 
 blockquote p::before {
