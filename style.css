@@ -688,7 +688,25 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+cite {
+    display: block;
+    text-align: center;
+}
+
+blockquote p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
 }
 
 .tight-width-whitespace {
