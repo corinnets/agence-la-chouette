@@ -702,6 +702,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
 }
+/*mes ajouts css - blockquote*/
 
 cite {
     display: block;
@@ -711,7 +712,10 @@ cite {
 
 blockquote{
     margin-bottom: 0;
+    
 }
+
+
 
 
 blockquote p {
@@ -727,6 +731,8 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
+
+/*fin ajouts blockquote*/
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -886,6 +892,24 @@ h4 {
         padding-right: 0;
     }
 }
+
+/*Début mes ajouts CSS -responsives*/
+
+@media (min-width:992px){
+    .quote-responsive {
+        width:100%;
+        margin-left: 0;
+    
+    }
+
+    .tight-width-whitespace{
+        max-width: 1200px;
+    }
+}
+
+
+/*Fin mes ajouts CSS-responsive*/
+
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
