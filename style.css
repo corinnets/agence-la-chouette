@@ -541,10 +541,16 @@ button {
     opacity: 1;
 }
 
+a img{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    
 }
 
 a[data-lightbox]:hover::before {
@@ -585,6 +591,7 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+   
 }
 
 .lightbox-caption {
