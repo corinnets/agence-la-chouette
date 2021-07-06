@@ -669,7 +669,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #3A2B03!important;
 }
 
 .container {
@@ -708,6 +708,7 @@ cite {
     display: block;
     text-align: center;
     font-size: 16px;
+    color: #3A2B03;
 }
 
 blockquote{
@@ -790,7 +791,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFF!important;
+    
 }
 
 .portfolio-thumb {
@@ -825,7 +827,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C14F1C;
 }
 
 .tc-white {
@@ -905,6 +907,8 @@ h4 {
     .tight-width-whitespace{
         max-width: 1200px;
     }
+
+    
 }
 
 
@@ -1109,4 +1113,15 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*modification footer*/
+.footer-element{
+    width: 100%;
+    color: #FFFFFC;
+    
+}
+
+.footer-element >ul >li >a{
+    color: #FFFFFC!important;
 }
