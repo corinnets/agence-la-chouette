@@ -1115,7 +1115,11 @@ h4 {
     }
 }
 
-/*modification footer*/
+
+/*début ajout footer*/
+
+
+
 .footer-element{
     width: 100%;
     color: #FFFFFC;
@@ -1125,3 +1129,5 @@ h4 {
 .footer-element >ul >li >a{
     color: #FFFFFC!important;
 }
+
+/*fin ajout footer*/
