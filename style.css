@@ -21,6 +21,16 @@ a:hover {
 
 }
 
+/*mes ajouts - niveaux de titre*/
+
+.bloc-form h2{
+    color: #e0404d!important;
+}
+
+div p span {
+    font-weight: 700;
+}
+
 /*ajout code css pour accessibilité sur les lien 
 
 body a:focus{
@@ -870,6 +880,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-image: none;
 }
 
 .bg-lines-h2-bg {
