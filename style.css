@@ -354,7 +354,7 @@ div p span {
 
 .nav > li a:hover{
     background: transparent;
-    color: #e0404d !important ;
+    color: #A02727 !important ;
     
 }
 
@@ -847,7 +847,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #e0404d;
+    background-color: #A02727;
 }
 
 .tc-white {
@@ -855,7 +855,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #d44f4f;
+    background: #A02727;
     color: #FFFFFF!important;
 }
 
@@ -1143,6 +1143,7 @@ h4 {
 
 
 .footer-element{
+    font-size: 16px;
     width: 100%;
     color: #FFFFFC;
     
@@ -1177,7 +1178,7 @@ button:focus{
 
 .nav > li a:focus {
     background: transparent;
-    color: #e0404d !important ;
+    color: #A02727!important ;
     font-weight: 700;
     text-decoration: underline;
     
@@ -1186,7 +1187,7 @@ button:focus{
 /*les élément focusables*/
 /* texte paragrahes couleurs  */
 .redish{
-    color: #e0404d!important;
+    color: #A02727!important;
 }
 
 .yellowish{
