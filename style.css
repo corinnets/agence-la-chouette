@@ -7,11 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
+
+p {
+    font-size: 18px;
+}
+
+a
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    
 }
 
 a:hover {
@@ -30,14 +34,6 @@ a:hover {
 div p span {
     font-weight: 700;
 }
-
-/*ajout code css pour accessibilité sur les lien 
-
-body a:focus{
-    outline: 2px solid #8cc63f;
-          background-color: #fdf6e7;
-}
-*/
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -128,7 +124,7 @@ body a:focus{
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .d-bloc .icon-round,
@@ -356,10 +352,13 @@ body a:focus{
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover{
     background: transparent;
+    color: #e0404d !important ;
+    
 }
+
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -483,10 +482,12 @@ nav .caret {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
-
+           
 button {
     outline: none!important;
 }
+
+
 
 .btn-rd {
     border-radius: 40px;
@@ -556,8 +557,11 @@ button {
 
 a img{
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    
 }
+
+
 
 a[data-lightbox] {
     position: relative;
@@ -707,9 +711,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
-}
 
 .paragr-title{
     text-transform: uppercase;
@@ -726,6 +727,9 @@ cite {
 
 blockquote{
     margin-bottom: 0;
+    background-color: #e0404d ;
+    opacity: 0.8;
+    
     
 }
 
@@ -733,8 +737,9 @@ blockquote{
 
 
 blockquote p {
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
+    
     
 }
 
@@ -771,6 +776,8 @@ blockquote p::after {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
+
 
 h2 {
     font-size: 22px;
@@ -822,7 +829,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(44, 34, 7, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -853,7 +860,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #e57272!important;
+    background: #e67e08!important;
     color: #FFFFFF!important;
 }
 
@@ -885,6 +892,7 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    background-image: none;
 }
 
 .bg-banniere {
@@ -1140,8 +1148,54 @@ h4 {
     
 }
 
-.footer-element >ul >li >a{
+.footer-element a{
     color: #FFFFFC!important;
 }
 
+.footer-element a:hover{
+    color: #FFFFFC!important;
+    text-decoration: underline;
+}
+
 /*fin ajout footer*/
+
+/*les élément focusables*/
+
+.row a:focus{
+    
+    outline: 1px auto #e0404d!important;
+}
+
+button:focus{
+    
+    outline: 0;
+    box-shadow: 0 0 8px 3px #32a1ce;
+
+
+}
+
+
+.nav > li a:focus {
+    background: transparent;
+    color: #e0404d !important ;
+    font-weight: 700;
+    text-decoration: underline;
+    
+    
+}
+/*les élément focusables*/
+/* texte paragrahes couleurs  */
+.redish{
+    color: #e0404d!important;
+}
+
+.yellowish{
+    color: #f5f380!important;
+}
+.interligne{
+    line-height: 1.5em;
+
+}
+
+
+
