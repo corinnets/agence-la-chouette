@@ -1198,5 +1198,20 @@ button:focus{
 
 }
 
+/*flexbox sur le conteneur du formulaire*/
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media (min-width: 768px){
+    .flex{
+        flex-direction: row;
+        
+    }
+
+}
+
 
 
